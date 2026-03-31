@@ -1,7 +1,7 @@
 OSS Audit - Linux Kernel
 
 Name: DEVANAND KARANAVAR
-Roll No: 24BCG10073
+REG NO: 24BCG10073
 
 Linux Bash Scripts Report
 Overview
