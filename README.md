@@ -1,2 +1,39 @@
-# oss-audit-24BCG10073
-This project is a collection of Bash scripts designed to perform basic system auditing and automation tasks in a Linux environment. It includes scripts for retrieving system information, inspecting installed FOSS packages, analyzing directory permissions and disk usage, processing log files, and generating a simple open-source manifesto.
+OSS Audit - Linux Kernel
+
+Name: DEVANAND KARANAVAR
+Roll No: 24BCG10073
+
+Linux Bash Scripts Report
+Overview
+
+This project includes Bash scripts that perform basic Linux system operations such as system information retrieval, package checking, directory analysis, and log file analysis.
+
+Scripts
+Script 1 – System Identity Report
+
+Displays system details like kernel version, user, uptime, date, and distribution.
+
+Script 2 – FOSS Package Inspector
+
+Checks whether a package (e.g., git) is installed and shows its version and details.
+
+Script 3 – Disk and Permission Auditor
+
+Analyzes important directories and displays their permissions and disk usage.
+
+Script 4 – Log File Analyzer
+
+Searches a log file for a keyword (default: error), counts occurrences, and shows matching lines.
+
+How to Run
+chmod +x script1.sh script2.sh script3.sh script4.sh
+./script1.sh
+./script2.sh
+./script3.sh
+./script4.sh /path/to/logfile error
+Requirements
+Linux / Ubuntu / WSL
+Bash shell
+Conclusion
+
+These scripts demonstrate basic Bash scripting concepts such as commands, conditions, loops, and file handling in Linux.
